@@ -1,10 +1,10 @@
 {
-  "name": "todolist-v1",
+  "name": "murmuring-gorge-05337",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "author": "",
   "license": "ISC",
