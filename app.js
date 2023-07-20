@@ -10,17 +10,6 @@ const app = express();
 
 const __dirname = path.resolve();
 let workitems = [];
-const PORT = process.env.PORT || 5001
-
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
-  .get('/cool', (req, res) => res.send(cool()))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
-
-
 
 // let items = ["Buy Food","Cook Food","Eat Food"];
     app.set('view engine', 'ejs');
